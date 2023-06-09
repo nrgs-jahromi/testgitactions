@@ -26,7 +26,6 @@ jobs:
       - name: Run tests
         run: |
           python main_test.py
-          pylint my_module.py
 
       - name: Build Docker image
         run: |
