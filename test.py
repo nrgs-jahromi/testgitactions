@@ -13,8 +13,8 @@ def modulo(x, y):
 def print_result(result):
     print("Final result:", result)
 
-x = int(input("Enter the first number (x): "))
-y = int(input("Enter the second number (y): "))
+x = int(input("Enter the first number : "))
+y = int(input("Enter the second number : "))
 
 
 sum_result = add(x, y)
