@@ -13,8 +13,9 @@ def modulo(x, y):
 def print_result(result):
     print("Final result:", result)
 
-x = int 10
-y = int 5
+    
+x = int(15)
+y = int(5)
 
 
 sum_result = add(x, y)
