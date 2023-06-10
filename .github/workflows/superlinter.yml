@@ -1,11 +1,13 @@
-name: Pull Request CI and Docker Build
+
+name: Push & Pull Request CI & Docker Build
 
 on:
   pull_request:
   push:
     branches:
-        - '*'
-     
+    
+      - '*'
+
 
 jobs:
   test-and-build:
