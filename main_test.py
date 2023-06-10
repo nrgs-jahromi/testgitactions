@@ -24,6 +24,8 @@
 
 # if __name__ == '__main__':
 #     unittest.main()
+from main import add, subtract, multiply, modulo
+
 def test_add():
     assert add(2, 3) == 5
     assert add(0, 0) == 0
